@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Modularization", "Modularization\Modularization.fsproj", "{CBE92DF4-24F1-4DBD-8495-05906D3C8CCF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Modularization.Tests", "Modularization.Tests\Modularization.Tests.fsproj", "{C5C4CE7E-84A4-4DF5-AFC6-2DA10D3602C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FB83CD8D-E9AB-4B9D-A5F9-1473E1662EC1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE92DF4-24F1-4DBD-8495-05906D3C8CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE92DF4-24F1-4DBD-8495-05906D3C8CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE92DF4-24F1-4DBD-8495-05906D3C8CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE92DF4-24F1-4DBD-8495-05906D3C8CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C4CE7E-84A4-4DF5-AFC6-2DA10D3602C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C4CE7E-84A4-4DF5-AFC6-2DA10D3602C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C4CE7E-84A4-4DF5-AFC6-2DA10D3602C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C4CE7E-84A4-4DF5-AFC6-2DA10D3602C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
